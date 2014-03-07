@@ -1,0 +1,15 @@
+{
+	"name": "Wikipedia",
+	"id": "wikipedia",
+	"description": "Internet encyclopedia",
+	"version": "0.1.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "350px",
+	"color": "#4E4E4E",
+	"background": "white",
+	"expand": "http://wikipedia.org",
+	"external_url": "https://m.wikipedia.org"
+}

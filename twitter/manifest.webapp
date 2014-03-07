@@ -1,0 +1,14 @@
+{
+	"name": "Twitter",
+	"id": "twitter",
+	"description": "A widget for Twitter",
+	"version": "0.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "350px",
+	"color": "white",
+	"background": "#729AAE",
+	"expand": "https://twitter.com"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Clip",
+	"id": "clip",
+	"description": "Cut the web",
+	"version": "0.2",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "200px",
+	"color": "#4E4E4E",
+	"background": "white"
+}

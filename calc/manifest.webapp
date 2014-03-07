@@ -1,0 +1,11 @@
+{
+	"name": "Calculator",
+	"id": "calc",
+	"description": "A simple calculator",
+	"version": "0.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "300px"
+}

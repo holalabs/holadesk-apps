@@ -1,0 +1,15 @@
+{
+	"name": "Box",
+	"id": "box",
+	"description": "Box offers secure, scalable content-sharing that both users and IT love and adopt.",
+	"version": "0.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "300px",
+	"color": "white",
+	"background": "#1A74BA",
+	"expand": "https://box.com",
+	"external_url": "https://m.box.com"
+}

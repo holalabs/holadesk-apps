@@ -1,0 +1,13 @@
+{
+	"name": "Postit",
+	"id": "postit",
+	"description": "A simple post-it widget",
+	"version": "0.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "200px",
+	"color": "#4E4E4E",
+	"background": "#FFF075"
+}

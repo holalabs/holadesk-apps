@@ -1,0 +1,14 @@
+{
+	"name": "TechCrunch",
+	"id": "techcrunch",
+	"description": "TechCrunch news reader",
+	"version": "0.2",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "300px",
+	"color": "white",
+	"background": "#0A9600",
+	"expand": "http://techcrunch.com"
+}

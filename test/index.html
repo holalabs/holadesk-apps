@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html manifest="test.appcache">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<title>Desk</title>
+<link rel="stylesheet" type="text/css" href="https://desk.holalabs.com/desk/framework/holadeskui.css">
+</head>
+<body>
+<menu>
+	<button onclick="theme('')">Default</button>
+	<button onclick="theme('blue')">Blue</button>
+	<button onclick="theme('red')">Red</button>
+	<button onclick="theme('orange')">Orange</button>
+	<button onclick="theme('green')">Green</button>
+	<button onclick="theme('metal')">Metal</button>
+	<button onclick="theme('purple')">Purple</button>
+	<button onclick="theme('white')">White</button>
+	<button onclick="theme('brown')">Brown</button>
+	<button>Options</button>
+</menu>
+
+<header>
+	<button class="menu"></button>
+
+	<nav>
+		<button data-section="examples" class="current">Examples</button>
+		<button data-section="about">About</button>
+		<button data-section="non" disabled>About</button>
+	</nav>
+
+	<menu>
+		<button class="exit"></button>
+		<button>Ola</button>
+	</menu>
+</header>
+
+<section id="examples" class="current">
+	<h1>Holalabs</h1>
+	<h2>Kind of form</h2>
+	<form>
+		<input type="text" placeholder="Name">
+		<input type="text" placeholder="Disabled" disabled>
+		<textarea>Hola</textarea>
+		<label>Toggle<input type="checkbox" class="toggle" /></label>
+		<label>Range<input type="range"/></label>
+		<label>Range<span class="select"><select>
+	        <option value="option1">Option 1</option>
+	        <option value="option2">Option 2</option>
+	        <option value="option3">Option 3</option>
+    </select></span></label>
+		<button>Button</button>
+	</form>
+	<h2>List</h2>
+	<ul>
+		<li>This is a list</li>
+		<li>Element</li>
+		<li>Woo-ha</li>
+		<li>Biff</li>
+	</ul>
+	<h3>Now with checkboxes</h3>
+	<ul>
+		<li><input type="checkbox" name="checkbox"/>This is a list</li>
+		<li><input type="checkbox" name="checkbox"/>Element</li>
+		<li><input type="checkbox" name="checkbox"/>Woo-ha</li>
+		<li><input type="checkbox" name="checkbox"/>Biff</li>
+	</ul>
+   	<progress value="22" max="100"></progress>
+</section>
+
+<section id="about">
+	<h1>Stanford</h1>
+	<h2>Berkeley</h2>
+	<h3>MIT</h3>
+	<button>Hola</button>
+	<footer>
+		<menu class="flexible four">
+			<button class="edit"></button>
+			<button class="exit"></button>
+			<button class="settings"></button>
+			<button class="settings"></button>
+		</menu>
+	</footer>
+</section>
+<!--<script src="holadesk.js"></script>-->
+<script src="https://desk.holalabs.com/desk/framework/holadeskui.js"></script>
+<script type="text/javascript">
+var app = new DeskApp();
+app.UI();
+
+window.app = app;
+
+window.theme = new Function(app.theme);
+</script>
+</body>
+</html>

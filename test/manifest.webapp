@@ -1,0 +1,11 @@
+{
+	"name": "Test",
+	"id": "test",
+	"description": "Test app",
+	"version": "0.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "350px"
+}

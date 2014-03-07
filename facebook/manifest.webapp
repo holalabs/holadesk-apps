@@ -1,0 +1,14 @@
+{
+	"name": "Facebook",
+	"id": "facebook",
+	"description": "Facebook for holadesk",
+	"version": "0.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "350px",
+	"color": "white",
+	"background": "#3B5998",
+	"expand": "http://facebook.com"
+}

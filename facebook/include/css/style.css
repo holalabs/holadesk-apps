@@ -1,0 +1,23 @@
+.ui-page {
+background: #eee;
+}
+
+body {
+/*
+font-family: Verdana, Arial, Helvetica, sans-serif;
+*/
+}
+
+img { border-style: none; vertical-align:middle; }
+img.fade { opacity: 0.4; filter: alpha(opacity=40); zoom: 1; }
+
+/*
+A {	color: #0065ce;text-decoration: none}
+A:hover {color: #0065ce;text-decoration: underline;}
+
+A.pagination {border: #e1ebfb 1px solid;padding-left: 2px;padding-right: 2px;font-weight: normal;font-size: 1.1em;background: #f5f9ff;margin-bottom: 3px;color: #666;text-decoration: none;}
+A:hover.pagination { background: none transparent scroll repeat 0% 0%; color: #ac0018; text-decoration: none;}
+
+A.black {	background: none transparent scroll repeat 0% 0%;color: black;text-decoration: none}
+A:hover.black {background: none transparent scroll repeat 0% 0%;color: black;text-decoration: underline;}
+*/

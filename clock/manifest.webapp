@@ -1,0 +1,13 @@
+{
+	"name": "Clock",
+	"id": "clock",
+	"description": "Cool clock",
+	"version": "0.1.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "120px",
+	"color": "black",
+	"background": "#DDD"
+}

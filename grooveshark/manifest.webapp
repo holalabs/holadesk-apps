@@ -1,0 +1,14 @@
+{
+	"name": "Grooveshark",
+	"id": "grooveshark",
+	"description": "Listen to music",
+	"version": "0.1.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "400px",
+	"background": "white",
+	"expand": "https://grooveshark.com",
+	"external_url": "https://html5.grooveshark.com"
+}

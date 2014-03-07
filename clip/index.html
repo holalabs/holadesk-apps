@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html manifest="clip.appcache">
+<head>
+<title>Clip</title>
+<meta charset="utf-8" />
+<script src="https://desk.holalabs.com/desk/framework/holadesk.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="https://desk.holalabs.com/desk/framework/holadeskui.css">
+<style>
+html, body {
+	margin:0;
+	padding:0;
+	overflow: hidden;
+    height:200px;
+}
+
+#bar {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    height:24px;
+    display:none;
+}
+
+#b {
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:1000;
+    width:24px;
+    height:24px;
+}
+
+#cont {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+ 
+iframe, #overlay
+{
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    border:none;
+}
+
+.loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+</head>
+<body>
+<button id="b" onclick="toggle()">+</button>
+<div id="bar">
+    <input type="text" value="http://" onkeypress="if(event.keyCode == 13) {load() }" /> <button onclick="load()">Go</button>
+</div>
+<div id="cont">
+<iframe id="iframe" src="about:blank" scrolling="no" onload="resize()"></iframe>
+<div id="overlay"></div>
+<div class="loading"></div>
+</div>
+
+</body>
+</html>

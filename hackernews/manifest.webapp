@@ -1,0 +1,14 @@
+{
+	"name": "Hacker News",
+	"id": "hackernews",
+	"description": "YCombinator Hacker News",
+	"version": "0.2",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "300px",
+	"color": "black",
+	"background": "#F60",
+	"expand": "http://news.ycombinator.com"
+}

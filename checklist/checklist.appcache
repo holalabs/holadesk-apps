@@ -1,0 +1,12 @@
+CACHE MANIFEST
+#version 0.1.2 14-10-2012
+CACHE:
+icon.png
+index.html
+simpletodo.css
+js/simpletodo.js
+
+https://desk.holalabs.com/desk/framework/holadeskui.css
+https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js
+https://desk.holalabs.com/desk/framework/holadeskui.js
+https://desk.holalabs.com/desk/framework/holadesk.js

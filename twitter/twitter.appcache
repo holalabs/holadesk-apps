@@ -1,0 +1,18 @@
+CACHE MANIFEST
+#version 0.1.2 14-10-2012
+CACHE:
+#images
+icon.png
+
+#internal HTML documents
+index.html
+
+#src files
+oni-apollo.js
+
+#javascript lib files
+modules/common.sjs
+modules/dom.sjs
+modules/http.sjs
+modules/jquery-binding.sjs
+modules/twitter.sjs

@@ -1,0 +1,12 @@
+{
+	"name": "Canvas",
+	"id": "canvas",
+	"description": "A simple canvas to draw into",
+	"version": "0.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "320px",
+	"background": "#FAFAFA"
+}

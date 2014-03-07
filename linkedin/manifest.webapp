@@ -1,0 +1,15 @@
+{
+	"name": "LinkedIn",
+	"id": "linkedin",
+	"description": "A widget for LinkedIn",
+	"version": "0.1.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "350px",
+	"color": "white",
+	"background": "#222",
+	"expand": "https://linkedin.com",
+	"external_url": "https://touch.linkedin.com"
+}

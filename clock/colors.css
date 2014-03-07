@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: table;
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#content {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+}
+
+#clock {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  margin: auto;
+}
+
+#clock .digit, #clock .colon {
+  font-family: "Trebuchet MS";
+  display: block;
+  position: relative;
+  float: left;
+  font-size: 50px;
+  width: 37px;
+  text-align: center;
+  color: #ddd;
+  text-shadow: #555 0 0 3px;
+}
+
+#clock .colon {
+  margin-top: -5px;
+}
+

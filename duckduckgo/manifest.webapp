@@ -1,0 +1,14 @@
+{
+	"name": "DuckDuckGo",
+	"id": "duck",
+	"description": "The duck helps you search",
+	"version": "0.1.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "300px",
+	"color": "white",
+	"background": "#CD473B",
+	"external_url": "https://duckduckgo.com"
+}

@@ -1,0 +1,10 @@
+CACHE MANIFEST
+#version 0.1.2 14-10-2012
+CACHE:
+icon.png
+styles.css
+https://desk.holalabs.com/desk/framework/holadeskui.css
+main.js
+https://desk.holalabs.com/desk/framework/holadeskui.js
+index.html
+picker.png

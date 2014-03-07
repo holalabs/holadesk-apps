@@ -1,0 +1,15 @@
+{
+	"name": "Evernote",
+	"id": "evernote",
+	"description": "Remember everything",
+	"version": "0.1.2",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "300px",
+	"color": "#4E4E4E",
+	"background": "#BEDF8C",
+	"expand": "https://evernote.com",
+	"external_url": "https://www.evernote.com/m/"
+}

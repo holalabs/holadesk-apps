@@ -1,0 +1,15 @@
+{
+	"name": "Nokia Maps",
+	"id": "nokiamaps",
+	"description": "City and Country Maps",
+	"version": "0.1.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "400px",
+	"color": "white",
+	"background": "#124191",
+	"expand": "https://maps.nokia.com/",
+	"external_url": "https://m.maps.nokia.com"
+}

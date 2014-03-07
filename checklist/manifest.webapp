@@ -1,0 +1,12 @@
+{
+	"name": "Checklist",
+	"id": "checklist",
+	"description": "A simple todo app",
+	"version": "0.1",
+	"developer": {
+		"name": "Holalabs",
+		"url": "https://holalabs.com"
+	},
+	"height": "170px",
+	"background": "#DDD"
+}
